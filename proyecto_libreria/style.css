@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wgh@300;400;600;700&display=swap");
+
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --pink: #a04f81;
+    --light-pink: rgb(230, 174, 196);
+    --color-primary: #9d0191;
+    --color-sec: #07F7FF;
+    --grey: #eee;
+    --dark-grey: #222831;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.container h2:hover {
+    color: #ccc;
+    margin-left: 200px;
+}
+
+.container-1 {
+   position: relative;
+   left: 125px;
+   top: 60px;
+}
+
+.container-2 {
+   position: relative;
+   left: 125px;
+   top: 60px;
+}
+
+.container-3 {
+   position: relative;
+   left: 125px;
+   top: 60px;
+}
+
+.container-4 {
+   position: relative;
+   left: 125px;
+   top: 60px;
+}
+
+.container-5 {
+   position: relative;
+   left: 125px;
+   top: 60px;
+}
+
+.container-6 {
+   position: relative;
+   left: 125px;
+   top: 60px;
+}
+
+header {
+    width: 100%;
+    background-color: #ffda9e;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+nav {
+    height: 7.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 17%;
+}
+
+.logo {
+    font-size: 3.5rem;
+    color: #5d2417;
+    text-align: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    margin: 0 1.5rem;
+}
+
+li a {
+    color: #d1052a;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+section {
+    padding: 5rem 0;
+}
+
+section:hover {
+    background-color: #fdecd4; 
+}
+
+
+.box {
+    border: 1px solid #670010;
+    padding: 2rem;
+}
+
+h2 {
+    color: #b2443a;
+    text-align: center;
+    margin-top: 0px;
+    position: inherit;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex>* {
+    margin: 2px;
+}
+
+#novelas {
+    display: flex;
+    margin-top: 50px;
+}
+
+#terror {
+    display: flex;
+}
+
+#suspenso {
+    display: flex;
+    margin-top: 50px;
+}
+
+#drama {
+    display: flex;
+    margin-top: 50px;
+}
+
+#aventura {
+    display: flex;
+}
+
+#comedia {
+    display: flex;
+}
+
+button {
+    background: #670010;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: #670010;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+.active {
+    position: relative;
+}
+
+.active>* {
+    color: #670010;
+}
+
+.active::before {
+    position: relative;
+    content: "";
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    width: 100%;
+    background-color: #670010;
+}
+
+#button-up {
+    width: 60px;
+    height: 60px;
+    background: #670010;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+}
